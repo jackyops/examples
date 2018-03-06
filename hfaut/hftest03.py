@@ -78,11 +78,19 @@ def test(ct):
     for i in range(thread_count):
         threading.Thread(target=test_func,args=(ct,))
 
+
+
+
+
+
 if __name__ == '__main__':
-    global test_count
-    test(test_count)
-    while True:
-        time.sleep(100)
+    # global test_count
+    # test(test_count)
+    # while True:
+    #     time.sleep(100)
+    test()
+
+
 
 
 
